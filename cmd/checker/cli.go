@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ParallelChecker/utils"
 	"flag"
+	"github.com/SandersN79/parallelChecker/utils"
 	"os"
 	"strings"
 )

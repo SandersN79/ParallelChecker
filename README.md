@@ -3,7 +3,7 @@ CLI Tool that checks for duplicate csv file values. This tool uses no third part
 
 ## Install CLI
 ```bash
-$ go install https://github.com/SandersN79/ParallelChecker.git
+$ go install github.com/SandersN79/parallelChecker
 ```
 
 ## Usage

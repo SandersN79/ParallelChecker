@@ -1,8 +1,8 @@
 package main
 
 import (
-	"ParallelChecker/core"
 	"fmt"
+	"github.com/SandersN79/parallelChecker/core"
 	"os"
 )
 
