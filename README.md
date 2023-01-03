@@ -2,8 +2,17 @@
 CLI Tool that checks for duplicate csv file values. This tool uses no third party dependencies.
 
 ## Install CLI
+* go install
 ```bash
-$ go install -v github.com/SandersN79/parallelChecker@latest
+$ go install -v github.com/SandersN79/parallelChecker/cmd/checker@latest
+$ checker -h
+```
+* go build
+```bash
+$ git clone https://github.com/SandersN79/parallelChecker.git
+$ cd parallelChecker
+$ go build ./cmd/checker
+$ ./checker -h
 ```
 
 ## Usage
