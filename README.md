@@ -19,11 +19,17 @@ $ ./checker -h
 ```
 
 ## Usage
-#### A) Check included csv files in testData
+#### A) Using checker (by default expects a folder called “testData” containing csv files)
 ```bash
-$ cd parallelChecker
-$ ./checker
+$ mkdir testData
+$ cp {csvFilePath}/* testData
+$ checker
 ```
+Or the path maybe specified
+```bash
+$ checker -path={csvFilePath}
+```
+
 #### B) Specific folder directory and/or csv files to check
 ```bash
 $ checker -path=/dir/files/
