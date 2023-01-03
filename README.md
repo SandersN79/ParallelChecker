@@ -2,11 +2,14 @@
 CLI Tool that checks for duplicate csv file values. This tool uses no third party dependencies.
 
 ## Install CLI
-* go install
+* go install - make sure that binary is in your local bin
 ```bash
 $ go install -v github.com/SandersN79/parallelChecker/cmd/checker@latest
 $ checker -h
 ```
+* if having an issue finding binary try:
+* sudo cp $(go env GOPATH)/bin/checker /usr/local/bin
+
 * go build
 ```bash
 $ git clone https://github.com/SandersN79/parallelChecker.git
