@@ -21,7 +21,8 @@ $ ./checker -h
 ## Usage
 #### A) Check included csv files in testData
 ```bash
-$ checker
+$ cd parallelChecker
+$ ./checker
 ```
 #### B) Specific folder directory and/or csv files to check
 ```bash
